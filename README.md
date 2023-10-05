@@ -12,9 +12,13 @@ A large sample of stopped muons is selected using the graph neural network (GNN)
 # Photon track reconstruction
 The muons emit light at a constant angle of around 49 degrees (90 degrees minus the Cherenkov angle), making it possible to calculate when and where light (or photons) is emitted.
 For each DOM activated or not, in each event the vector of the recorded or un-recorded photon is reconstructed. From these reconstructed photon vectors, the following variables are extracted:
+
   Photon distance
+
   Photon azimuth angle
+  
   Photon zenith angle
+  
   Photon z (depth of the halfway point between emission and detection of the light)
 
 # Efficiency and timing of the detector
